@@ -41,18 +41,27 @@ Create the following tables in the MySQL database:
 
 CREATE TABLE Users(
 	id INT AUTO_INCREMENT PRIMARY KEY,
+
     username VARCHAR(50),
+    
     userpassword VARCHAR(50),
+    
     usermail VARCHAR(50),
+    
     usermobile VARCHAR(20)
 );
 
 CREATE TABLE RoomBookings (
     booking_id INT AUTO_INCREMENT PRIMARY KEY,
+    
     room_number VARCHAR(20),
+    
     customer_name VARCHAR(100),
+    
     email VARCHAR(100),
+    
     checkinDate DATE,
+    
     checkoutDate DATE
 );
 
