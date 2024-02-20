@@ -40,6 +40,7 @@ Download the MySQL Connector and import it into the lib folder of the project.
 Create the following tables in the MySQL database:
 
 CREATE TABLE Users(
+
 	id INT AUTO_INCREMENT PRIMARY KEY,
 
     username VARCHAR(50),
@@ -52,6 +53,7 @@ CREATE TABLE Users(
 );
 
 CREATE TABLE RoomBookings (
+
     booking_id INT AUTO_INCREMENT PRIMARY KEY,
     
     room_number VARCHAR(20),
