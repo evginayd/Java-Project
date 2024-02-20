@@ -5,6 +5,7 @@ Prerequisites
 
 - Eclipse IDE
 - Apache Tomcat Server
+- MySQL
 - MySQL Connector
   
 Set up a server and create a web project connected to Apache Tomcat.
